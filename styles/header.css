@@ -1,0 +1,115 @@
+.main-header div a {
+  text-decoration: none;
+  color: rgb(15, 1, 1);
+}
+
+.header {
+  display: flex;
+  column-gap: 25px;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 101px;
+  background-color: rgb(196, 221, 213);
+  border-bottom: 1px solid rgb(206, 206, 206);
+  z-index: 100;
+}
+
+.right-header-section {
+  white-space: nowrap;
+}
+
+.sea-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sea-logo-image {
+  margin-left: 20px;
+  height: 90px;
+  border-radius: none;
+}
+
+.sea-logo-text {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  color: rgb(0, 0, 112);
+}
+
+.capital-s {
+  font-size: 20px;
+}
+
+.line-shape-div {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.line-shape {
+  width: 400px;
+  height: 1px;
+  background-color: rgb(105, 135, 177);
+}
+
+.main-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.main-header p {
+  padding: 11px 35px;
+}
+
+.active,
+.other1,
+.other2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 120px;
+  height: 45px;
+  cursor: pointer;
+  border-radius: 0px;
+  transition: background-color 0.2s, color 0.15s;
+  border-bottom: 2px solid rgb(203, 203, 203);
+}
+
+.active {
+  background-color: rgb(12, 108, 218);
+  border-bottom: 2px solid white;
+}
+
+.active p {
+  color: white;
+}
+
+.active:hover,
+.other1:hover,
+.other2:hover {
+  background-color: rgb(156, 180, 208);
+  border-bottom: 2px solid white;
+}
+
+.section {
+  padding: 20px 20px 50px 20px;
+  box-shadow: 1px 1px 2px gray;
+  border-radius: 5px;
+  background-color: rgb(237, 245, 247);
+}
+
+.article-title {
+  font-size: 18px;
+  color: rgb(122, 122, 122);
+  font-weight: bold;
+}
