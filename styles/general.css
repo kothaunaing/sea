@@ -4,7 +4,7 @@
    padding-right: 20px;
    padding-top: 120px;
    font-family: system-ui;
-   padding-bottom: 300px;
+   padding-bottom: 500px;
  }
 
  p {
@@ -296,7 +296,7 @@
    margin: 0 15px;
  }
 
- @media (max-width: 500px) {
+ @media (max-width: 450px) {
    .reading-club-grid {
      display: grid;
      grid-template-columns: 1fr;
@@ -308,33 +308,28 @@
    }
 
    .header {
-     display: flex;
      column-gap: 0px;
-     justify-content: center;
-     align-items: center;
-     position: fixed;
-     top: 0;
-     left: 0;
-     right: 0;
-     height: 101px;
-     background-color: rgb(215, 237, 230);
-     border-bottom: 1px solid rgb(206, 206, 206);
-     z-index: 100;
-     padding-right: 55px;
-     padding-left: 50px;
+     padding-right: 30px;
+     padding-left: 0px;
    }
 
-   .right-header-section {
-     white-space: nowrap;
-     flex: 1;
+
+   .logo-hover-image {
+     width: 100px;
    }
 
-   .main-header {
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     margin-top: 10px;
-     max-width: 600px;
+   .logo-hover-div {
+     z-index: 200;
+     bottom: -110px;
+     right: -50px;
+   }
+
+   .capital-s {
+     font-size: 15px;
+   }
+
+   .main-header p {
+     padding: 6px 20px;
    }
  }
 
