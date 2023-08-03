@@ -296,6 +296,48 @@
    margin: 0 15px;
  }
 
+ @media (max-width: 500px) {
+   .reading-club-grid {
+     display: grid;
+     grid-template-columns: 1fr;
+   }
+
+   .main-header div a {
+     text-decoration: none;
+     color: rgb(15, 1, 1);
+   }
+
+   .header {
+     display: flex;
+     column-gap: 0px;
+     justify-content: center;
+     align-items: center;
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     height: 101px;
+     background-color: rgb(215, 237, 230);
+     border-bottom: 1px solid rgb(206, 206, 206);
+     z-index: 100;
+     padding-right: 55px;
+     padding-left: 50px;
+   }
+
+   .right-header-section {
+     white-space: nowrap;
+     flex: 1;
+   }
+
+   .main-header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 10px;
+     max-width: 600px;
+   }
+ }
+
  @media (max-width: 600px) {
    .reading-club-grid {
      display: grid;
