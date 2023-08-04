@@ -285,8 +285,8 @@ footer {
 
 .teacher-image-tooltip {
   position: absolute;
-  left: -120px;
-  top: 0;
+  right: -100px;
+  top: -100px;
   box-shadow: 0 0 5px lightgreen;
   opacity: 0;
   transition: opacity 0.15s;
@@ -383,6 +383,7 @@ footer {
     width: 35px;
   }
 
+  /* about.html */
 }
 
 /* contact.html end */
