@@ -1,0 +1,22 @@
+/* footer start */
+footer {
+  position: absolute;
+  bottom: 0;
+  left: -20px;
+  right: -20px;
+}
+
+.footer {
+  height: 100px;
+  background-color: rgb(227, 243, 239);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 25px;
+  border-radius: 5px;
+  color: rgb(41, 41, 41);
+  border-top: 1px solid rgb(215, 215, 215);
+}
+
+/* footer end */

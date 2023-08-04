@@ -1,0 +1,48 @@
+/* about.html start*/
+
+.teacher-title {
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(0, 48, 115);
+  margin-bottom: 5px;
+}
+
+.teachers-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teacher-image-and-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 50px 5px 5px;
+  box-shadow: 0 0 5px lightgreen;
+  border-radius: 5px;
+  column-gap: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.teacher-image-div {
+  width: 60px;
+  position: relative;
+}
+
+.teacher-image {
+  width: 60px;
+  border-radius: 30px;
+}
+
+.teacher-name-div {
+  flex: 1;
+}
+
+.teacher-name {
+  color: rgb(115, 115, 115);
+  font-weight: bold;
+}
+
+/* about.html  end*/

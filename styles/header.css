@@ -1,0 +1,133 @@
+/* header start*/
+
+.main-header div a {
+  text-decoration: none;
+  color: rgb(15, 1, 1);
+}
+
+.header {
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 101px;
+  background-color: rgb(215, 237, 230);
+  border-bottom: 1px solid rgb(206, 206, 206);
+  z-index: 100;
+  padding-right: 55px;
+  padding-left: 25px;
+}
+
+.right-header-section {
+  white-space: nowrap;
+  flex: 1;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  max-width: 600px;
+}
+
+.active,
+.other1,
+.other2 {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 45px;
+  cursor: pointer;
+  border-radius: 0px;
+  transition: background-color 0.2s, color 0.15s;
+  border-bottom: 2px solid rgb(203, 203, 203);
+}
+
+.sea-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.sea-logo-image {
+  height: 75px;
+  border-radius: none;
+}
+
+.sea-logo-text {
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: rgb(78, 57, 58);
+}
+
+.logo-image-div {
+  position: relative;
+}
+
+.line-shape-div {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.line-shape {
+  width: 400px;
+  height: 1px;
+  background-color: rgb(105, 135, 177);
+}
+
+
+.main-header p {
+  padding: 11px 35px;
+}
+
+
+.active {
+  background-color: rgb(12, 108, 218);
+  border-bottom: 2px solid white;
+}
+
+.active p {
+  color: white;
+}
+
+.active:hover,
+.other1:hover,
+.other2:hover {
+  background-color: rgb(156, 180, 208);
+  border-bottom: 2px solid white;
+}
+
+.tooltip {
+  color: white;
+  padding: 5px 10px;
+  position: absolute;
+  bottom: -50px;
+  z-index: 300;
+  background-color: rgb(181, 181, 181);
+  white-space: nowrap;
+  pointer-events: none;
+  border-radius: 5px;
+  transition: opacity 0.15s;
+  opacity: 0;
+}
+
+.active:hover .tooltip,
+.other1:hover .tooltip,
+.other2:hover .tooltip {
+  opacity: 1;
+}
+
+/* header end */

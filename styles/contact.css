@@ -1,0 +1,27 @@
+/* contact.html start */
+.contact-info-container {
+  display: flex;
+  box-shadow: 0 0 2px rgb(183, 183, 183);
+  column-gap: 50px;
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+.contact-info-col-1 {
+  background-color: rgb(255, 205, 193);
+  flex: 1;
+  padding: 17px 15px;
+  text-align: center;
+}
+
+.contact-info-col-2 {
+  flex: 5;
+  text-align: left;
+  margin: 0 15px;
+}
+
+.icons {
+  width: 35px;
+}
+
+/* contact.html end */
