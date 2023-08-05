@@ -2,7 +2,7 @@
 .contact-info-container {
   display: flex;
   box-shadow: 0 0 2px rgb(183, 183, 183);
-  column-gap: 50px;
+  column-gap: 0px;
   margin-bottom: 5px;
   align-items: center;
 }

@@ -8,24 +8,81 @@
     grid-template-columns: 1fr;
   }
 
+  /* header start*/
+
   .main-header div a {
     text-decoration: none;
     color: rgb(15, 1, 1);
   }
 
   .header {
+    display: flex;
     column-gap: 0px;
-    padding-right: 30px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 101px;
+    background-color: rgb(215, 237, 230);
+    border-bottom: 1px solid rgb(206, 206, 206);
+    z-index: 100;
+    padding-right: 0px;
     padding-left: 0px;
   }
 
-  .capital-s {
+  .right-header-section {
+    white-space: nowrap;
+    flex: 1;
+  }
+
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    max-width: 600px;
+  }
+
+  .active,
+  .other1,
+  .other2 {
+    width: 45px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 0px;
+    transition: background-color 0.2s, color 0.15s;
+    border-bottom: 2px solid rgb(203, 203, 203);
+  }
+
+  .sea-logo-image {
+    height: 60px;
+    border-radius: none;
+  }
+
+  .sea-logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sea-logo-text {
     font-size: 15px;
+    font-family: Verdana;
+    font-weight: bold;
+    color: rgb(78, 57, 58);
   }
 
   .main-header p {
-    padding: 6px 20px;
+    padding: 11px 20px;
   }
+
+  /* header end */
 
   /* contact.html  start */
 
@@ -53,7 +110,6 @@
     width: 35px;
   }
 
-  /* about.html */
 }
 
 /* contact.html end */
@@ -66,19 +122,20 @@
     display: grid;
     grid-template-columns: 1fr;
   }
+}
 
 
-  @media (min-width: 601px) and (max-width: 800px) {
-    .reading-club-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-    }
+@media (min-width: 601px) and (max-width: 800px) {
+  .reading-club-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 801px) {
+  .reading-club-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
-  @media (min-width: 801px) {
-    .reading-club-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-    }
-
-  }
+}
