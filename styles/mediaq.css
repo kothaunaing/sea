@@ -24,11 +24,11 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 101px;
+    height: 90px;
     background-color: rgb(215, 237, 230);
     border-bottom: 1px solid rgb(206, 206, 206);
     z-index: 100;
-    padding-right: 0px;
+    padding-right: 30px;
     padding-left: 0px;
   }
 
