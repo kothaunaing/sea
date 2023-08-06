@@ -1,11 +1,15 @@
 /* general styles start */
+@font-face {
+  src: url(../fonts/Padauk.ttf);
+  font-family: 'padauk unicode';
+}
 
 body {
+  font-family: 'padauk unicode';
   position: relative;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 120px;
-  font-family: system-ui;
   padding-bottom: 500px;
 }
 

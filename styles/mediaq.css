@@ -61,6 +61,11 @@
     border-bottom: 2px solid rgb(203, 203, 203);
   }
 
+  .active {
+    background-color: rgb(12, 108, 218);
+    border-bottom: 2px solid white;
+  }
+
   .sea-logo-image {
     height: 60px;
     border-radius: none;
