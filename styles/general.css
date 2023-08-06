@@ -1,11 +1,16 @@
 /* general styles start */
 @font-face {
-  src: url(../fonts/Padauk.ttf);
-  font-family: 'padauk unicode';
+  src: url(../fonts/padauk-book.ttf);
+  font-family: 'custom font';
+}
+
+@font-face {
+  src: url(../fonts/Roboto-Regular.ttf);
+  font-family: roboto;
 }
 
 body {
-  font-family: 'padauk unicode';
+  font-family: roboto, 'custom font';
   position: relative;
   padding-left: 20px;
   padding-right: 20px;
@@ -33,6 +38,7 @@ p {
   font-size: 18px;
   color: rgb(85, 85, 85);
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .list {
@@ -43,4 +49,15 @@ p {
 article {
   margin-bottom: 10px;
   color: rgb(70, 69, 69);
+}
+
+.book-cover-div {
+  display: flex;
+  overflow: auto;
+  border: 2px solid rgb(210, 210, 210);
+}
+
+.book-cover-div img {
+  width: 200px;
+  border-right: 2px solid rgb(207, 207, 207);
 }

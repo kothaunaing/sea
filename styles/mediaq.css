@@ -28,7 +28,7 @@
     background-color: rgb(215, 237, 230);
     border-bottom: 1px solid rgb(206, 206, 206);
     z-index: 100;
-    padding-right: 20px;
+    padding-right: 35px;
     padding-left: 0px;
   }
 
@@ -78,7 +78,7 @@
 
   .sea-logo-text {
     font-size: 15px;
-    font-family: Verdana;
+    font-family: 'custom font';
     font-weight: bold;
     color: rgb(78, 57, 58);
   }
